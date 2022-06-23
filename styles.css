@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(196, 196, 196);
+}
+
+
+
+.containerPrincipal {
+
+    background-color: rgb(233, 233, 233);
+    width: 910px;
+    height: 530px;
+    margin: 50px auto;;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.marco {
+    width: 660px;
+    height: 57vh;
+    background-color: white;
+    border-radius: 15px;
+    margin:40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 6px 0px 0px rgba(138,132,132,0.86);
+-webkit-box-shadow: 0px 6px 0px 0px rgba(138,132,132,0.86);
+-moz-box-shadow: 0px 6px 0px 0px rgba(138,132,132,0.86);
+
+    
+}
+
+
+.containerPromos {
+    background-color: #fcfcfc ;
+    width: 650px;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.promo {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h2 {
+    margin-top: 5px;
+}
+.moneda {
+    font-size: large;
+    font-weight: bolder;
+    
+}
+.numero {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 3px;
+    
+}
+
+.texto1 {
+font-size: 0.7rem;
+margin-top: 2px;
+}
+
+.texto2 {
+    width: 195px;
+    height: 54px;
+    size: small;
+    font-size: 0.85rem;
+    margin-top: 0px;
+}
+
+
+.boton {
+    height: 35px;
+    width: fit-content;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boton1 {
+    background-color: #fc4e8c;
+}
+
+.boton2 {
+    background-color: #09e1ef;
+}
+
+.boton3 {
+    background-color: black;
+    color: white;
+}
